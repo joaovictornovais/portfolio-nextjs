@@ -7,7 +7,7 @@ import Button from '../app/components/Button'
 export default function Hero() {
 
     return (
-        <main className="p-4 h-[calc(100vh-64px)] max-w-7xl mx-auto flex flex-col justify-center">
+        <main className="p-4 h-[calc(100vh-64px)] flex flex-col justify-center">
             <div className="text-zinc-400 sm:text-2xl md:text-3xl">
                 <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-zinc-200">João Victor Novais</h1>
                 <Typewriter
@@ -20,7 +20,7 @@ export default function Hero() {
                     
                 />
             </div>
-            <p className="text-sm sm:text-md md:text-xl text-zinc-400 mt-6">Passionate about solve real-life problemas with code.</p>
+            <p className="text-sm sm:text-md md:text-xl text-zinc-400 mt-6">Passionate about solving real-life problems with code.</p>
             <div className="flex gap-4 items-center mt-4">
                 <Button color="primary">See my works</Button>
                 <Button color="secundary">Contact me</Button>
