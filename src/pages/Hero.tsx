@@ -2,7 +2,7 @@
 
 import { Typewriter } from 'react-simple-typewriter'
 import { MdWork } from 'react-icons/md'
-import Button from './Button'
+import Button from '../app/components/Button'
 
 export default function Hero() {
 
